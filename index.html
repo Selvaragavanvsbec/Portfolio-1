@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Responsive Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div id="greeting-container" class="greeting-container">
+    <p id="greeting-text"></p>
+  </div>
+  <header class="hidden" id="portfolio-header">
+    <nav class="navbar">
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="home" class="hero-section">
+      <h1>Hi, I'm Your Name</h1>
+      <p>A Passionate Developer and Designer</p>
+      <a href="#portfolio" class="btn">View My Work</a>
+    </section>
+  </header>
+
+  <section id="about" class="about-section hidden">
+    <h2>About Me</h2>
+    <p>I specialize in crafting elegant, user-friendly web applications and interfaces.</p>
+  </section>
+
+  <section id="skills" class="skills-section hidden">
+    <h2>My Skills</h2>
+    <ul class="skills-list">
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Node.js</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <section id="portfolio" class="portfolio-section hidden">
+    <h2>Portfolio</h2>
+    <div class="portfolio-gallery">
+      <div class="portfolio-item">Project 1</div>
+      <div class="portfolio-item">Project 2</div>
+      <div class="portfolio-item">Project 3</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section hidden">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="footer hidden">
+    <p>© 2024 My Portfolio</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
